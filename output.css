@@ -1,0 +1,24 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body  {
+  font-family: sans-serif;
+  background: url(/FORM/gradienta-bKESVqfxass-unsplash.jpg) no-repeat;
+  background-size: cover;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-image: url(/FORM/gradienta-bKESVqfxass-unsplash.jpg);
+}
+
+main form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
